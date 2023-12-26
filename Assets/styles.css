@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#search-container {
+    /* Styles for the search container */
+}
+
+#search-button {
+    /* Styles for the search button */
+}
+
+#current-weather {
+    /* Styles for the current weather container */
+}
+
+#forecast-title {
+    /* Styles for the forecast title */
+}
+
+#forecast-container {
+    /* Styles for the forecast cards container */
+}
+
+/* Additional styles for input, buttons, and weather cards */
