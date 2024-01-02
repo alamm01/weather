@@ -1,25 +1,47 @@
-body {
-    font-family: Arial, sans-serif;
+:root {
+    --light: #465AB8;
+    --dark: #281764;
 }
 
-#search-container {
-    /* Styles for the search container */
+
+#header-id {
+    margin:10px;
+    background-image: linear-gradient(to right, var(--light), var(--dark));
 }
 
-#search-button {
-    /* Styles for the search button */
+.singleHeader {
+    display: flex;
+    align-items: center;
 }
 
-#current-weather {
-    /* Styles for the current weather container */
+.singleCityWrap{
+    border: 2px black solid;
+    padding: 5px;
+    width: 83%;
 }
 
-#forecast-title {
-    /* Styles for the forecast title */
+#search-btn {
+    background-color: var(--light);
+    width: 100%;
 }
 
-#forecast-container {
-    /* Styles for the forecast cards container */
+#header-id {
+    background-color: blue !important;
 }
 
-/* Additional styles for input, buttons, and weather cards */
+.border {
+    border: solid 3px black;
+    margin-bottom: 30px;
+}
+
+#singleCity {
+    border: 5px black;
+}
+
+.five-day .col .fiveDayCard {
+    background-color: #323D4F;
+    color: white;
+    padding: 5px;
+}
+
+/* Google CSS SPECIFICITY */
